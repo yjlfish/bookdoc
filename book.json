@@ -1,11 +1,55 @@
 {
-    "title": "达旦明久",
-    "author": "于健龙 <yjl_yujianlong@126.com>",
-    "description": "达旦明久颇章",
-    "generator": "site",
+    "title": "yjlfish",
+    "description": "达旦明久",
+    "author": "yjlfish",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
     "links": {
         "sidebar": {
-            "于健龙个人博客": "https://yujianlong.top"
+            "yjlfish主页": "https://yujianlong.top"
         }
+    },
+    "plugins": [
+        "github@^2.0.0",
+        "edit-link@^2.0.2",
+        "anchors@^0.7.1",
+        "include-codeblock@^3.0.2",
+        "splitter@^0.0.8",
+        "tbfed-pagefooter@^0.0.1",
+        "expandable-chapters-small@^0.1.7",
+        "anchor-navigation-ex@0.1.8"
+    ],
+
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/yjlfish/bookdoc"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © yujianlong 2019",
+            "modify_label": "文档修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "edit-link": {
+            "base": "https://github.com/yjlfish/bookdoc/tree/master",
+            "label": "Edit This Page"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }
+
+
     }
 }
